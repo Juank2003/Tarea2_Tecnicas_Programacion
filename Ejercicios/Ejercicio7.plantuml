@@ -1,0 +1,22 @@
+@startuml
+
+class Proyecto{
+Nombre: Parchita
+Fecha de inicio: 8/02/23
+Fecha de fin: 8/03/23
+}
+
+class Miembro_Del_Equipo{
+Nombre: Alfred
+Apellidos: Jonshon
+Rol: Jefe
+}
+
+class Lugar_Actuacion{
+Nombre: Sevilla
+Coordenada X: 1500
+Coordenada Y: 200
+
+}
+
+@enduml
