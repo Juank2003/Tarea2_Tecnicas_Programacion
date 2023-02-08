@@ -1,0 +1,12 @@
+@startuml
+
+class Persona{
+nombre: Juan
+primer apellido: Fernández
+segundo apellido: Ramirez
+fecha de nacimiento: 11/02/2002
+sexo: Masculino
+número de identificación: 33567943L
+}
+
+@enduml
