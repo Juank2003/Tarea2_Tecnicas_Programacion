@@ -1,0 +1,19 @@
+@startuml
+
+class Actuavion{
+
+Fecha de inicio: 1/03/23
+Fecha de fin: 13/04/23
+Tipo: 1 enum Tipo de Actuación
+
+}
+
+enum TipoActuacion{
+
+Sondeo
+Excavación
+Seguimiento
+
+}
+
+@enduml
