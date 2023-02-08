@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+
+object Catedral_de_Santiago 
+Catedral_de_Santiago : Nombre = “Catedral de Santiago de Compostela” \n Culto = Católico \n Fecha primera consagración = 1128 \n Fecha segunda consagración = 3 de abril de 121 1 \n Fecha declaración BIC = 1896 \n Material = Granito \n Estilo = Románaico, Gótico, Barroco, Platere sco, Neoclásico
+
+object l1
+l1 : Ciudad = “Santiago de Compostela” \n Comunidad = “Galicia” \n País = “España”
+
+Catedral_de_Santiago => l1 : Se encuentra en
+
+object Etapa_Construccion1
+Etapa_Construccion1 :  Fecha inicio construcción = 1075 \n Fecha fin construcción = 1122 
+
+object Etapa_Construccion2
+Etapa_Construccion2 : Fecha inicio construcción = 1168 \n Fecha fin = nulo
+
+Catedral_de_Santiago => Etapa_Construccion1 : Se construyó durante
+Catedral_de_Santiago => Etapa_Construccion2 : Se construyó durante
+@enduml
