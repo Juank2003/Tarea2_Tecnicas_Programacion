@@ -1,0 +1,25 @@
+@startuml
+
+class Circulo {
+color : azul
+diametro : 1
+}
+
+class Rectangulo {
+color : verde
+longitud : 1
+altura : 3
+}
+
+class Cuadrado {
+color : rojo
+longitud : 2
+}
+
+class Elipse {
+color : morado
+eje_Mayor : 2
+eje_Menor : 1
+}
+
+@enduml
