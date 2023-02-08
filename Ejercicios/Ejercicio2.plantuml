@@ -1,0 +1,20 @@
+@startuml
+object Kate 
+Kate : Nombre = “Kate” \n Apellido = “Windsor” \n Apellido_Nacimiento = “Middleton” \n Sexo = “Mujer”
+
+object Guillermo
+Guillermo : Nombre = “Guillermo” \n Apellido = “Windsor” \n Sexo = “Hombre”
+
+object Diana
+Diana : Nombre = “Diana” \n Apellido = “Windsor” \n Apellido Nacimiento = “Spencer” \n Sexo = “Mujer”
+
+object Carlos
+Carlos : Nombre = “Carlos” \n Apellido = “Windsor” \n Sexo = “Hombre”
+
+Guillermo => Kate : Esta Casado Con
+Guillermo => Carlos : Es hijo de
+Guillermo => Diana : Es hijo de
+Carlos => Diana : Esta casado con
+
+
+@enduml
