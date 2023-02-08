@@ -1,0 +1,19 @@
+@startuml
+
+object Gioconda 
+Gioconda : Lugar “La Gioconda” \n AC = “1503 - 1516” \n Técnica = Óleo \n Sub-técnica = Sfumato \n Soporte = Madera de álamo \n Autor = “Leonardo da Vinci” \n Estado de conservación = Regular
+
+object l1 
+l1 : Institución = “Museo del Louvre” \n Ciudad = “París” \n País = “Francia”
+Gioconda => l1 : se encuentra en
+
+object Réplica
+Réplica : Título = l2: Lugar “Gioconda de El Prado” \n AC = “1503 - 1516” \n Técnica = Óleo ªn Sub-técnica = Pincelada simple \n Soporte = Madera de nogal \n Autor = desconocido \n Estado de conservación = Bueno
+
+Réplica = Gioconda : Es Réplica de
+
+object l2 
+l2 : Institución = “Museo de El Prado” \n Ciudad = “Madrid” \n País = “España”
+Gioconda => l2 : se encuentra en
+
+@enduml
