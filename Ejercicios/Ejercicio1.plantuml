@@ -1,0 +1,15 @@
+@startuml
+
+object circulo 
+circulo : Color = "Negro" \n diametro = "1"
+
+object rectangulo
+rectangulo : longitud = 1 \n anchura = 3 \n color = "Naranja"
+
+object cuadrado2
+cuadrado2 : longitud = 1,5 \n color = "azul"
+
+object elipse 
+elipse : color = "amarillo" \n eje_mayor = 3 \n eje_menor = 1
+
+@enduml
