@@ -1,5 +1,6 @@
 # Tarea2_Tecnicas_Programacion
 Segunda tarea de técnicas de programación
+Mi repositorio: https://github.com/Juank2003/Tarea2_Tecnicas_Programacion.git
 
 Ejercicio 1: 
 <img src = "https://www.plantuml.com/plantuml/svg/NO_1QiCm38RlUWgHyovPs2Km6Eo-9nWCpHQPWsmDnJwqJzyuJPss5qlwhUyp_bWoMIvHG7zdTXbTC5T4OQyuugUA6hvZzyMJQOVV2NsWoDcqfdq7DzRMWz9KyTPMWsYQGYv-NUyhJidz5QDr7EhesWDab6OwXAwGD_Bw2grxqhsyFHZeNEJ0MSB_mWXx7U_s8baGkVw6P_w9TDfkXXPmse8U02u0" > 
