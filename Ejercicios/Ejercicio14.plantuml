@@ -1,0 +1,51 @@
+@startuml
+object Poligono1{
+}
+
+object Punto1{
+Punto1 : X=-10
+Punto1 : Y=10
+}
+
+object Punto2{
+Punto2 : X=-10
+Punto2 : Y=-10
+}
+
+object Punto3{
+Punto3 : X=10
+Punto3 : Y=-10
+}
+object Punto4{
+Punto3 : X=10
+Punto3 : Y=-10
+}
+
+object Punto5{
+Punto3 : X=10
+Punto3 : Y=-10
+}
+
+object Punto6{
+Punto3 : X=10
+Punto3 : Y=-10
+}
+
+
+object Poligono2{
+}
+
+Poligono1 o-- Punto1 : Posee >
+Poligono1 o-- Punto2 : Posee >
+Poligono1 o-- Punto3 : Posee >
+
+
+Poligono2 o-- Punto5 : Posee >
+Poligono2 o-- Punto6 : Posee >
+Poligono2 o-- Punto4 : Posee >
+
+
+
+
+
+@enduml
